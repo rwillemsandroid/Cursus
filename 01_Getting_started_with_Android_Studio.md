@@ -110,4 +110,14 @@ Het voordeel van Genymotion is dat de simulators sneller werken dan de default A
 
 Nadeel is dat Genymotion betalende software is, er is gelukkig wel een gratis versie met beperkte functionaliteit.
 
-![Genymotion](/images/genymotion.png)
+![Genymotion](/images/01_genymotion.png)
+
+# Opdrachten #
+
+- Installeer Android Studio 
+- Zorg dat de nodige dependencies geinstalleerd zijn. 
+- Genereer een nieuw, leeg Android Studio project zoals beschreven in dit document.
+- Deploy je eerste "Hello world" applicatie
+
+
+- (Optioneel) Setup emulator
