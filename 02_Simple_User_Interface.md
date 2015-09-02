@@ -176,8 +176,9 @@ probeer hetvolgende scherm na te bouwen:
 ### Extra ###
 
 - verander de textkleur van je teller uit oef 1 en 2
-- verander de achtergrondkleur van je scherm
-- Zorg ervoor dat je teller knop de helf van je scherm vult (tip: `layout_weight`)
+- verander de achtergrondkleur van je scherm `"@android:color/"`
+
+
 - probeer hetvolgende scherm na te bouwen:
 
 ![Hello World](/images/02_oefBtns2.png)
