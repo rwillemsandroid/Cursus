@@ -64,3 +64,4 @@ hint: gebruik de menu resource files
 - Verander de toolbar van kleur
 - Gebruik een achtergrond afbeelding
 - probeer de Actionbar van plaats te veranderen (Bv de bodem van je scherm)
+- Gebruik een icoon voor een actie in de Toolbar: [https://materialdesignicons.com/](https://materialdesignicons.com/)
