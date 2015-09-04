@@ -25,7 +25,8 @@ Vandaag maken we een lijstje.
 
 ### Oefening 1: A guide to Android RecyclerView and Cardview ###
 
-Je kan kiezen of je in een nieuwe applicatie begint of een nieuwe activity toevoegt aan je applicatie.
+Maak een nieuwe activiteit.
+In deze activiteit, voeg je een recyclerview toe zoals in het voorbeeld.
 
 [http://www.binpress.com/tutorial/android-l-recyclerview-and-cardview-tutorial/156](http://www.binpress.com/tutorial/android-l-recyclerview-and-cardview-tutorial/156)
 
