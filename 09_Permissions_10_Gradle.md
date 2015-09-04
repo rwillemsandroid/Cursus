@@ -1,5 +1,7 @@
 # 09 Permissions
 
+Permissies worden gedefineerd in het Android manifest
+
 Volledige uitleg/Source: [http://www.hongkiat.com/blog/android-app-permissions/](http://www.hongkiat.com/blog/android-app-permissions/)
 
 First things first, Android app permissions aren’t requests, they’re declarations. Unless you’re rooted, you have no say – short of choosing to not install the app – in whether the app will receive all the permissions it requires.
@@ -50,6 +52,40 @@ If the app is not granted an appropriate permission, it should handle the failur
 
 #### Permissions are revocable ####
 Users can revoke an app's permissions at any time. If a user turns off an app's permissions, the app is not notified. Once again, your app should verify that it has needed permissions before performing any restricted actions.
+
+
+## Voorbeeld manifest met permissies ##
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    	package="be.vdab.simplelayout" >
+    
+	    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+	    <uses-permission android:name="android.permission.INTERNET"/>
+	    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+	    <uses-permission android:name="android.permission.BLUETOOTH"/>
+	    <uses-permission android:name="android.permission.CALL_PHONE"/>
+	    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+	    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"/>
+    
+	    <application
+		    android:allowBackup="true"
+		    android:icon="@mipmap/ic_launcher"
+		    android:label="@string/app_name"
+		    android:theme="@style/AppTheme" >
+			    <activity
+				    android:name=".MainActivity"
+				    android:label="@string/app_name" >
+				    <intent-filter>
+				    	<action android:name="android.intent.action.MAIN" />
+				    
+				    	<category android:name="android.intent.category.LAUNCHER" />
+				    </intent-filter>
+			    </activity>
+	    </application>
+    
+    </manifest>
 
 
 
@@ -140,3 +176,5 @@ Je vind deze hier terug:
 Bekijk onderstaande lijst met Android Material design libraries. Kies er eentje uit en gebruik deze om een element van je Fan app te verbeteren of om een element toe te voegen.
 
 [https://github.com/wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
+
+Alternatief kan je ook de Google Android Design Library gebruiken en een nieuw element hiervan gebruiken.
