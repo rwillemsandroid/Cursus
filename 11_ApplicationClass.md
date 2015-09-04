@@ -49,6 +49,13 @@ There is a Life-cycle for the android application BUT the applications have limi
     </manifest>
 
 
+## Use cases ##
+
+- Initialiseer delen van je app (DB, Synchronisaties, Plant Log tree)
+- Subscribe to services
+- Register to Push server
+- ....
+
 
 ## Oefening ##
 
