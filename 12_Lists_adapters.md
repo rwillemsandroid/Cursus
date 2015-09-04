@@ -1,4 +1,4 @@
-# 11 Lists & Adapters
+# 12 Lists & Adapters
 
 Vandaag maken we een lijstje.
 
