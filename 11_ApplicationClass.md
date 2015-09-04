@@ -1,4 +1,4 @@
-# 10.2 Application Class #
+# 11 Application Class #
 
 [http://developer.android.com/reference/android/app/Application.html](http://developer.android.com/reference/android/app/Application.html)
 
