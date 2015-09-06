@@ -1,5 +1,19 @@
 # Usefull Links #
 
+## Learn Android ##
+
+### Udacity Android ###
+
+Good online Android video course for beginners 
+
+[https://www.udacity.com/course/developing-android-apps--ud853](https://www.udacity.com/course/developing-android-apps--ud853)
+
+### Udacity Android Design ###
+
+In this course, you'll learn how to apply the material design principles that define Android's visual language to your apps.
+
+[https://www.udacity.com/course/android-design-for-developers--ud862](https://www.udacity.com/course/android-design-for-developers--ud862)
+
 ## Icons ##
 
 ### Launcher icon generator ##
