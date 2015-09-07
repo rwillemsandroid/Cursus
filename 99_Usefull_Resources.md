@@ -51,3 +51,9 @@ Weekelijse newsletters met info over de laatste nieuwe libraries, tutorials, bes
 ### Android Dev Digest ###
 
 [http://www.androiddevdigest.com/](http://www.androiddevdigest.com/)
+
+## GIT ##
+
+### Bitbucket ###
+
+Free hosting of **private** repositories online. (Githubs free plan is only public/open source stuff)
