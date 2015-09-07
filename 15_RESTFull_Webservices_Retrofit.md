@@ -48,6 +48,8 @@ GSON zal er voor zorgen dat de JSON data die van de webservice komt geparsed wor
 
 ## Oefeningen ##
 
+### Oefening 1
+
 Gebruik Retrofit om een JSON webservice aan te spreken. 
 
 Om te weten hoe je Retrofit gebruikt kan je de tutorial hierboven bekijken, devolgende stappen moeten doorlopen worden.
@@ -69,3 +71,16 @@ Geen data om te gebruiken?
 
 Een voorbeeld JSON-database kan je hier terugvinden.
 [https://raw.githubusercontent.com/typicode/jsonplaceholder/master/data.json](https://raw.githubusercontent.com/typicode/jsonplaceholder/master/data.json)
+
+
+### Oefening 2
+
+
+
+- Gebruik Retrofit om een nieuwe waarde te posten in je DB.
+
+
+### Oefening 3
+
+- Gebruik Retrofit om een lijst van objecten op te vragen.
+- Geef deze objecten weer in een lijst (RecyclerView)
