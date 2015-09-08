@@ -15,6 +15,12 @@
 
 Gebruik shared preferences om iets op te slagen
 
+### Oefening 2 ###
+
+- Bouw een scherm gelijkaardig aan onderstaande screenhot
+- Voeg de bijhorende functionaliteit toe.
+
+![](images/shared_prefs.jpg)
 
 ## Saving Files ##
 
