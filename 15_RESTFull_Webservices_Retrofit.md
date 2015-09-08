@@ -2,6 +2,21 @@
 
 [http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 
+## JSON Server ##
+
+Voor onze oefeningen, gebruiken we dezelfde JSON server als jullie voor iOS gedaan hebben.
+
+[http://jsonplaceholder.typicode.com/](http://jsonplaceholder.typicode.com/)
+
+Als de server goed is geinstalleerd, gebruik je de volgende command om de server te starten.
+
+    json-server <FILE.DB>
+
+
+waar `FILE.DB ` het bestand met je database data is
+
+
+
 ## About Retrofit 
 
 ### Retrofit 1 ###
