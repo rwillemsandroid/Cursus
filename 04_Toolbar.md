@@ -1,16 +1,5 @@
 # 04 Toolbar #
 
-**Theorie**
-
-- Android Manifest 
-- OnClickListener
-- Starting Another Activity
-	- android manifest
-
-**Oefeningen**
-
-- Switchen tussen activiteiten
-- Intent voor Internet/ Google maps
 
 ## What is the action bar? ##
 
@@ -59,13 +48,20 @@ Herneem je Fan-Pagina applicatie.
 
 Aan de hand van onderstaande tutorial voegen we samen een Toolbar toe aan deze app.
 
-[http://www.android4devs.com/2014/12/how-to-make-material-design-app.html](http://www.android4devs.com/2014/12/how-to-make-material-design-app.html)
+[http://techlovejump.com/android-toolbar-tutorial/](http://techlovejump.com/android-toolbar-tutorial/)
+
+**OPGELET:** gebruik AppCompatAcitivity in plaats van ActionBarActivity!!
 
 ### Oef 2: Verplaats de Engels en Nederlands knop naar opties in de Actionbar
 
 ![New Project](/images/05_toolbar_ex2.png)
 
+hint: gebruik de menu resource files
+
 
 ### Extra 
 
-TODO: extra oef voorzien
+- Verander de toolbar van kleur
+- Gebruik een achtergrond afbeelding
+- probeer de Actionbar van plaats te veranderen (Bv de bodem van je scherm)
+- Gebruik een icoon voor een actie in de Toolbar: [https://materialdesignicons.com/](https://materialdesignicons.com/)

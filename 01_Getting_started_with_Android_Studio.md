@@ -87,7 +87,7 @@ Vind je de juiste opties niet terug? Vraag google om raad om te kijken hoe je de
 
 De **Android Virtual Device (AVD) Manager** , is een tool ingebouwd in Android Studio. 
 
-![New Project](/images/01_AVD.png)
+![New Project](/images/01_avd.png)
 
 Met deze tool is het mogelijk om een Android Virtual Device **Emulator** op te zetten.
 

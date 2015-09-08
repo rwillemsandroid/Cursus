@@ -107,4 +107,5 @@ Zorg ervoor dat je informatiepagina minstens devolgende items bevat:
 - gebruik een scrollview
 - maak gebruik van shapes
 - gebruik /dimens voor padding, marges en afmetingen
+- Maak een gradient achtergrond
 
