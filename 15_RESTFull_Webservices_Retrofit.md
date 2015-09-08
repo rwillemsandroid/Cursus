@@ -77,7 +77,6 @@ Een voorbeeld JSON-database kan je hier terugvinden.
 
 - Gebruik Retrofit om een nieuwe waarde te posten in je DB.
 
-
 ### Oefening 3
 
 - Gebruik Retrofit om een lijst van objecten op te vragen.
@@ -87,7 +86,7 @@ Een voorbeeld JSON-database kan je hier terugvinden.
 
 Zoek een publieke REST service en probeer deze aan te spreken
 
-bv
+bv.
 
 - http://imdb.wemakesites.net/
 - http://marsweather.ingenology.com/
