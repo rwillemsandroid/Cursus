@@ -33,8 +33,8 @@ http://developer.android.com/reference/java/io/File.html
 
 **Create a folder**
 
-    File fileDirectory = new File(Environment.getExternalStorageDirectory() + "/FILENAME/");
-    photoDirectory.mkdirs();
+    File fileDirectory = new File(Environment.getExternalStorageDirectory() + "/DIRECTORY/");
+    fileDirectory.mkdirs();
     
 **Create a file**
 
