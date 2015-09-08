@@ -30,6 +30,8 @@ Gebruik shared preferences om iets op te slagen
 
 Gebruik het fototoestel van je toestel in je applicatie om een foto te nemen.  (Tip:  `startActivityForResult` )
 
+[http://developer.android.com/guide/topics/media/camera.html#intents](http://developer.android.com/guide/topics/media/camera.html#intents)
+
 Slaag deze foto op in Pictures directory van je toestel.
 
 **Extra:**
