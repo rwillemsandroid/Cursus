@@ -14,6 +14,11 @@ In this course, you'll learn how to apply the material design principles that de
 
 [https://www.udacity.com/course/android-design-for-developers--ud862](https://www.udacity.com/course/android-design-for-developers--ud862)
 
+## Begrippenlijst/Vocabulaire ##
+
+[https://developers.google.com/android/for-all/vocab-words/](https://developers.google.com/android/for-all/vocab-words/)
+
+
 ## Icons ##
 
 ### Launcher icon generator ##
