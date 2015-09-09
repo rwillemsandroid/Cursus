@@ -41,7 +41,14 @@ http://developer.android.com/reference/java/io/File.html
     File mFile;
     mFile = new File(File fileDirectory ,String pictureName);
     
+### Using the Camera ###
 
+    // create Intent to take a picture and return control to the calling application
+    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+    //Specify the URI of your file as output directory for the picture
+    intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri); // set the image file name
+    // start the image capture Intent
+    startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
 
 ### Oefening: ###
 
@@ -59,7 +66,7 @@ Om dit te doen doorloop je devolgende stappen.
 
 
 **Extra:**
-Slaag een thumbnail op van de foto die je getrokken hebt
+Geef je foto weer in je activiteit nadat deze genomen is (Gebruik hiervoor Picasso)
 
 
 ## Databases ##
