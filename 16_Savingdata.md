@@ -65,6 +65,29 @@ Slaag een thumbnail op van de foto die je getrokken hebt
 ## Databases ##
 [http://developer.android.com/training/basics/data-storage/databases.html](http://developer.android.com/training/basics/data-storage/databases.html)
 
+### Accessing the DB on your filesystem ###
+
+De database van de applicatie wordt opgeslagen in de private storage van je applicatie.
+Hierdoor is het moeilijk toegang tot deze te krijgen zonder root access.
+
+Gelukkig zijn de Genymotion Simulators geroot!
+
+
+Om een database te raadplegen
+
+1. In settings, enable installs from unknown sources
+2. Download SQLite debugger op je Genymotion Simulator. APK vind je hier terug: [http://vdab.raf-willems.be](http://vdab.raf-willems.be)
+3. Het kan zijn dat om veiligheidsredenen het bestand automatisch gerenamed word naar `donwnload.dn`, als dit het geval is, verander de extensie van dit bestand terug naar .apk
+4. Install SQLite Debugger
+5. Hoera
+
+
+
+
 Tutorial:
+
+[http://hmkcode.com/android-simple-sqlite-database-tutorial/](http://hmkcode.com/android-simple-sqlite-database-tutorial/)
+
+Alternatief:
 
 [http://www.techotopia.com/index.php/An_Android_SQLite_Database_Tutorial](http://www.techotopia.com/index.php/An_Android_SQLite_Database_Tutorial)
