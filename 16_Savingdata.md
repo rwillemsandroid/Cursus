@@ -84,10 +84,23 @@ Om een database te raadplegen
 
 
 
-Tutorial:
+### Tutorials ###
 
 [http://hmkcode.com/android-simple-sqlite-database-tutorial/](http://hmkcode.com/android-simple-sqlite-database-tutorial/)
+
 
 Alternatief:
 
 [http://www.techotopia.com/index.php/An_Android_SQLite_Database_Tutorial](http://www.techotopia.com/index.php/An_Android_SQLite_Database_Tutorial)
+
+
+#### Oefening 1 ####
+
+Tutorial 1
+
+#### Oefening 2 ####
+
+1. Maak een Database Table voor een nieuw object (Verzin zelf iets dat niet boek is)
+2. Maak een layout met devolgende elementen:
+	- Een manier om elementen toe te voegen aan de database
+	- Een lijst die weergeeft wat er allemaal in je tabel zit
