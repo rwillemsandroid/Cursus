@@ -62,3 +62,19 @@ Weekelijse newsletters met info over de laatste nieuwe libraries, tutorials, bes
 ### Bitbucket ###
 
 Free hosting of **private** repositories online. (Githubs free plan is only public/open source stuff)
+
+
+## Libraries ##
+
+#### Apache Commons Language (String Utilities) ####
+
+    compile 'org.apache.commons:commons-lang3:3.1'
+
+#### Picasso (Images) ####
+
+#### Retrofit (Rest services) ####
+- Retrofit
+- OkHttp
+- GSON
+
+#### Timber (Logging) ####
