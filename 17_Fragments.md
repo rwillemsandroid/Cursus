@@ -13,8 +13,13 @@ Zorg ervoor dat wanneer je op een knop drukt, bijbhorende frame wordt geladen.
 
 http://examples.javacodegeeks.com/android/core/app/fragment/android-fragments-example/
 
-**Opgepast:** In plaats van `android.app.Fragment;` gebruiken we `android.support.v4.app.Fragment`
+**Opgepast:** 
 
+- In plaats van `android.app.Fragment;` gebruiken we `android.support.v4.app.Fragment`
+- Ook voor FragmentManager, gebruiken we deze van appcompat.
+- In de XML gebruiken we `<FrameLayout>`in plaats van `<Fragment>`
+
+**Opdrachten**
 
 - In elke fragment, voeg Log messages toe in elke stap van de lifecycle.
 - Schrijf iets weg in je sharedpreferences in Fragment 1
