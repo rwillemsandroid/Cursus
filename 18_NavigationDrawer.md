@@ -47,6 +47,7 @@ In je `layout/activity_main.xml` definieer je hetvolgende
 
 	</android.support.v4.widget.DrawerLayout>
 
+java ```
 
 Dit gaat ervoor zorgen dat er een navigation drawer gecreeerd wordt in je layout
 
