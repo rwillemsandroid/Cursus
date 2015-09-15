@@ -14,7 +14,7 @@ Available in de support library
 In je `layout/activity_main.xml` definieer je hetvolgende
 
 
-```java
+```XML
     <android.support.v4.widget.DrawerLayout
 	    xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:id="@+id/drawer_layout"
