@@ -56,3 +56,7 @@ Dit gaat ervoor zorgen dat er een navigation drawer gecreeerd wordt in je layout
 2. Volg onderstaande tutorial die een stapje verder gaat en de Drawer zal vullen met een lijst etc.
 
 [http://javatechig.com/android/navigation-drawer-android-example](http://javatechig.com/android/navigation-drawer-android-example)
+
+**EDIT:**
+
+Duidelijkere tutorial: [http://blog.teamtreehouse.com/add-navigation-drawer-android](http://blog.teamtreehouse.com/add-navigation-drawer-android)
