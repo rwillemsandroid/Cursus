@@ -48,6 +48,9 @@ In je `layout/activity_main.xml` definieer je hetvolgende
 
 Dit gaat ervoor zorgen dat er een navigation drawer gecreeerd wordt in je layout
 
-## Tutorial ##
+## Opdracht ##
+
+1. Voeg bovenstaande DrawerLayout toe aan je applicatie.
+2. Volg onderstaande tutorial die een stapje verder gaat en de Drawer zal vullen met een lijst etc.
 
 [http://javatechig.com/android/navigation-drawer-android-example](http://javatechig.com/android/navigation-drawer-android-example)
