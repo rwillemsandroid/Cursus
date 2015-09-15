@@ -1,6 +1,8 @@
-# Other device functionalities
+# 19 Using device hardware
 
 ## Camera ##
+
+[http://developer.android.com/guide/topics/media/camera.html](http://developer.android.com/guide/topics/media/camera.html)
 
 In a previous chapter we learned to use existing camera apps to provide us with a video or picture via **intents**.
 
@@ -8,12 +10,9 @@ It is also possible to directly access the device hardware and to use the camera
 
 For this we need the Camera permission from the manifest.
 
-Tutorial:
+### Tutorial: ###
 
-http://developer.android.com/guide/topics/media/camera.html
-
-Detecting camera hardware
-Accessing cameras
+[http://examples.javacodegeeks.com/android/core/ui/surfaceview/android-surfaceview-example/](http://examples.javacodegeeks.com/android/core/ui/surfaceview/android-surfaceview-example/)
 
 ## Location services ##
 
@@ -30,4 +29,8 @@ Google play services zijn normaal beschikbaar op alle fysieke devices die verkoc
 
 [http://www.androidhive.info/2015/02/android-location-api-using-google-play-services/](http://www.androidhive.info/2015/02/android-location-api-using-google-play-services/)
 
+## Vibration ##
+See stackoverflow for instructions
+
+[http://stackoverflow.com/a/13950364/3708094](http://stackoverflow.com/a/13950364/3708094)
 
