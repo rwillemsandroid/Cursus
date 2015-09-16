@@ -38,11 +38,11 @@ bv.
     // no need to create an artificial back stack.
     PendingIntent resultPendingIntent =
     PendingIntent.getActivity(
-    this,
-    0,
-    resultIntent,
-    PendingIntent.FLAG_UPDATE_CURRENT
-    );
+    	this,
+    	0,
+    	resultIntent,
+    	PendingIntent.FLAG_UPDATE_CURRENT
+    	);
 ```
 
 Om bovenstaande pendingIntent effectief toe te voegen aan de notification gebruiken we opnieuw de notificationbuilder:
@@ -63,17 +63,36 @@ To issue the notification:
 For example:
 
 ```java
-NotificationCompat.Builder mBuilder;
-...
-// Sets an ID for the notification
-int mNotificationId = 001;
-// Gets an instance of the NotificationManager service
-NotificationManager mNotifyMgr = 
-        (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-// Builds the notification and issues it.
-mNotifyMgr.notify(mNotificationId, mBuilder.build());
+	NotificationCompat.Builder mBuilder;
+	...
+	// Sets an ID for the notification
+	int mNotificationId = 001;
+	// Gets an instance of the NotificationManager service
+	NotificationManager mNotifyMgr = 
+     	   (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+	// Builds the notification and issues it.
+	mNotifyMgr.notify(mNotificationId, mBuilder.build());
 ```
 
 ## Notifications triggeren ##
 
-GCM -> Google Cloud Messaging
+### GCM -> Google Cloud Messaging (Out of scope) ###
+
+[https://developers.google.com/cloud-messaging/](https://developers.google.com/cloud-messaging/)
+
+Idee is alsvolgt
+
+1. App registreert device bij de Google Cloud service
+2. App stuurt App id naar de maker van de app (Target server)
+3. Wanneer we een notification uit willen sturen, spreken we een google cloud webservice aan en geven als target de id mee die we kregen in stap 2
+4. Google zorgt ervoor dat er een broadcast uitgestuurd wordt naar de applicatie die geregistreerd is
+
+### Alternatieve service: Parse.com ###
+
+Gratis online backend voor je applicatie.
+
+- Push
+- Database backend
+- scripting
+- Analytics and crash reporting
+- ...
