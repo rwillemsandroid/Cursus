@@ -39,6 +39,8 @@ Gebeurd automatisch door android studio wanneer je iets deployed naar de device 
 ### Release ###
 Om dit te doen moet je een Keystore + paswoord toeveogen aan je project en gradle release configuratie.
 
+Je voegt de keystore toe aan de folder van applicatie module (app-folder)
+
 Dit ziet er zo uit:
 
 ```groovy
